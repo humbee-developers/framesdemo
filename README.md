@@ -1,4 +1,4 @@
-# Scroll Animation
+# HIDS Scroll Animation
 
 An interactive, scroll-driven animation built with React, GSAP (ScrollTrigger), Lenis, and canvas rendering.
 

@@ -73,6 +73,7 @@ const Animation = ({ loadImage, counter }) => {
     setCanvasSize();
     window.addEventListener("resize", setCanvasSize);
     const frameCount = 216;
+
     const currentFrame = (index) =>
       // https://interiormaataassets.humbeestudio.xyz/mainsiteassets/newRcFrames/
     // https://humbee-developers.github.io/framesdemo/
