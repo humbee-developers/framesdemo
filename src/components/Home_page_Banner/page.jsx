@@ -26,11 +26,11 @@ const Animation = ({ loadImage, counter }) => {
 
   useEffect(() => {
     const lenis = new Lenis({
-      lerp: 0.1, // Increase for more smoothness (0 - 1)
+      lerp: 0.035, // Increase for more smoothness (0 - 1)
       smooth: true, // Ensure smooth scrolling is enabled
       direction: "vertical", // Scrolling direction, use 'horizontal' for horizontal scroll
       gestureDirection: "vertical", // Direction for touch gestures
-      mouseMultiplier: 1, // Adjust how sensitive the scroll reacts to the mouse
+      mouseMultiplier: 0.5, // Adjust how sensitive the scroll reacts to the mouse
       smoothTouch: true, // Enable smooth scroll for touch devices
       touchMultiplier: 1.5, // Increase this value for a smoother effect on touch devices
     });
@@ -137,7 +137,7 @@ const Animation = ({ loadImage, counter }) => {
         //       smooth: 1, // how long (in seconds) it takes to "catch up" to the native scroll position
         // effects: true, // looks for data-speed and data-lag attributes on elements
         // smoothTouch: 100,
-        end: "+=800%",
+        end: "+=700%",
         // onUpdate: (self) => {
         //   const progress = self.progress;
         //   airpodsRef.current.frame = Math.floor(progress * (frameCount - 1));
