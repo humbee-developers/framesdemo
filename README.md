@@ -2,7 +2,7 @@
 
 An interactive, scroll-driven animation built with React, GSAP (ScrollTrigger), Lenis, and canvas rendering.
 
-## 🚀 Features
+##  Features
 
 - Frame-by-frame animation on scroll
 - Smooth buttery scroll experience using Lenis
@@ -12,7 +12,7 @@ An interactive, scroll-driven animation built with React, GSAP (ScrollTrigger), 
 - Optimized for deployment on GitHub Pages
 
 
-## 🛠️ Technologies
+##  Technologies
 
 - React
 - GSAP + ScrollTrigger
